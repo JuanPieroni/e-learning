@@ -28,6 +28,8 @@ import {
 
 import { CategoriesCard } from './components/page-components/CategoriesCard'
 import { OffersCard } from './components/page-components/OffersCard'
+import { TestimonialCard } from './components/page-components/TestimonialCard'
+import { TestimonialsList } from './components/Lists/TestimonialsList'
 
 function App() {
     const hi = () => {
@@ -54,11 +56,8 @@ function App() {
         setsShowOffers(!showOffers)
     }
 
-
-    //CARD LIST 
-    const cardList = [
-        {}
-    ]
+    //CARD LIST
+    const cardList = [{}]
 
     //OFFERS LIST
 
@@ -96,7 +95,6 @@ function App() {
             text: 'File from project are available for all of our courses to be downloaded',
         },
     ]
-    
 
     return (
         <>
@@ -304,7 +302,8 @@ function App() {
                                 ))}
                             </div>
                         )}
-                        <a
+                        <a  
+                            href='#'
                             onClick={handleShowOffers}
                             style={{
                                 cursor: 'pointer',
@@ -315,6 +314,17 @@ function App() {
                                 {showOffers ? 'Less' : 'More...'}
                             </h4>
                         </a>
+                    </section>
+                    {/* TESTIMONIALS  */}
+                    <section className="testimonials my-4">
+                        <Title
+                            classes={'subtitle text-center mb-4'}
+                            text="What our users say"
+                        />
+                        <div className='testimonials-container'>
+                          <TestimonialsList />
+                        {/*   <TestimonialCard />   */}
+                        </div>
                     </section>
                 </main>
             </div>

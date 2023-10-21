@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "img": "img-1",
+        "fullName": "Juan Pérez",
+        "jobTitle": "PELOTUDO Front End",
+        "twitterHandle": "@juan_frontend",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque mattis tincidunt justo, nec vestibulum nulla. Integer sit amet tristique turpis."
+    },
+    {
+        "id": 2,
+        "img": "img-2",
+        "fullName": "María López",
+        "jobTitle": "Desarrolladora Full Stack",
+        "twitterHandle": "@maria_fullstack",
+        "text": "Fusce lacinia, ante eget posuere fringilla, dolor felis fermentum metus, nec feugiat libero lectus in nisi. Nunc vel justo ac odio eleifend laoreet."
+    },
+    {
+        "id": 3,
+        "img": "img-3",
+        "fullName": "Carlos Rodríguez",
+        "jobTitle": "Ingeniero de Software",
+        "twitterHandle": "@carlos_dev",
+        "text": "Suspendisse sit amet justo ac quam laoreet volutpat ac eget eros. Sed vitae justo id tortor ullamcorper euismod. Aliquam erat volutpat."
+    },
+    {
+        "id": 4,
+        "img": "img-4",
+        "fullName": "Laura Smith",
+        "jobTitle": "Diseñadora de Experiencia de Usuario",
+        "twitterHandle": "@laura_uxdesign",
+        "text": "Mauris eu ligula at risus volutpat imperdiet ac in arcu. Quisque bibendum ante eu scelerisque dictum. Suspendisse efficitur, tortor at viverra."
+    } 
+ 
+]
